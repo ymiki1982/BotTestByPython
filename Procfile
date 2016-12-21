@@ -1,1 +1,1 @@
-web: gunicorn hello:app --log-file -
+web: gunicorn app.py app_with_handler.py --log-file -
